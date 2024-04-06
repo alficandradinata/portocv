@@ -50,23 +50,25 @@ export default {
     display: flex;
     position: fixed;
     align-items: center;
-    margin-left: -40%; 
-    margin-top: -200px;
+    margin-left: -50%; 
+    margin-top: -80px;
     z-index: 100;
 }
 
 .profile img {
-    width: 200px;
+    width: 400px;
     height: auto;
     overflow: hidden;
     position: fixed;
     z-index: 1000;
+    transform: scale(-1, 1);
 }
 
 .center {
     text-align: center;
     z-index: 11;
     transform: translate(50%, -50%);
+    
 }
 p{
     font-size:12px;
@@ -74,9 +76,9 @@ p{
     font-weight: bold;
     position: fixed;
     margin: 0;
-    width: 15%;
-    margin-left: -8%;
-    margin-top: 15%;
+    width: 50%;
+    margin-left: -35%;
+    margin-top: -15%;
     height: auto;
     z-index: 1000; 
     color: darkcyan;
